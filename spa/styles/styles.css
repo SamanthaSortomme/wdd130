@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather&family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color: #FCFDFE;
+    --secondary-color: #150578;
+    --accent1-color: #5D9AE4;
+    --accent2-color: #4A0475;
+
+
+    /* These are my font families
+    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    */
+    /*header,
+footer {
+grid-column-start: 1;
+grid-column-end: 3;
+} */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 1em;
+}
+
+header {
+    padding: 3em;
+    margin: none;
+    border: none;
+    text-align: center;
+    background-color: #4A0475;
+}
+
+.grid h1 {
+    color: #4A0475;
+    font-family: 'Courgette', cursive;
+    grid-template-columns: 1/6;
+    grid-template-rows: 2/5;
+    grid-gap: 1em;
+    display: block;
+    text-align: center;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgb(204, 204, 204);
+
+}
+
+.grid p {
+    font-family: 'Merriweather', serif;
+    color: #4A0475;
+    padding: 1em;
+    grid-column: col / span 4;
+    grid-row: row 2;
+}
+
+nav a {
+    text-align: center;
+    color: #150578;
+    font-size: 45px;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #150578;
+    color: white;
+}
