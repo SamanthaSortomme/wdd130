@@ -22,8 +22,8 @@ grid-column-end: 3;
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-    max-width: 1200px;
+    gap: 40px;
+
 }
 
 header {
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     color: #4A0475;
-    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 44px;
     text-align: center;
 }
@@ -67,22 +67,27 @@ p {
 .grid-item:nth-child(4) {
     grid-column: 3/4;
     grid-row: 2;
+
 }
 
 .grid-item:nth-child(7) {
+    display: flex;
     grid-column: 2/4;
-    grid-row: 4;
-    width: 20px;
+    grid-row: 5;
+    justify-content: center;
+}
+
+.grid-item:nth-child(6) {
+    grid-row: 5;
 }
 
 body {
-    max-width: 1200px;
+
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
     text-align: left;
     background-color: rgb(204, 204, 204);
-
 }
 
 nav a {
@@ -95,4 +100,23 @@ nav a {
 nav a:hover {
     background-color: #150578;
     color: white;
+}
+
+.picture img {
+    max-width: 50%;
+}
+
+.picturetwo img {
+    max-width: 100%
+}
+
+.container {
+    width: 1200px;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: right;
 }
