@@ -9,8 +9,9 @@
     --accent2-color: gold;
 
     /* change the values below to your chosen font(s) */
-    --heading-font: "Roboto Mono";
-    --paragraph-font: "Sofia Sans";
+    --heading-font: font-family 'Oswald';
+    --paragraph-font: font-family 'Roboto Mono';
+    --other-font: font-family 'Sofia Sans';
 
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #0c5310;
@@ -154,6 +155,7 @@ footer {
 
 
 .home-title {
+    font-family: 'Oswald';
     color: rgb(153, 161, 40);
     font-size: 2em;
     margin-top: 10px;
