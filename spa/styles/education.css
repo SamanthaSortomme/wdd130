@@ -21,13 +21,21 @@ grid-column-end: 3;
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
+
+.pic {
+    text-align: center;
+
+}
+
 
 header {
     padding: 3em;
@@ -36,7 +44,7 @@ header {
 }
 
 .grid-item:nth-child(1) {
-    grid-column: 1/4
+    grid-column: 1/3;
 }
 
 h1 {
@@ -47,7 +55,7 @@ h1 {
 }
 
 .grid-item:nth-child(2) {
-    grid-column: span 2;
+    grid-column: 1/2
 }
 
 h2 {
@@ -58,7 +66,7 @@ h2 {
 }
 
 .grid-item:nth-child(3) {
-    grid-column: 1/4;
+    grid-column: 2/3;
 }
 
 p {
@@ -68,20 +76,31 @@ p {
 }
 
 .grid-item:nth-child(4) {
-    grid-column: 3/4;
-    grid-row: 2;
+
+    grid-column: 1/3;
 
 }
 
-.grid-item:nth-child(7) {
-    display: flex;
-    grid-column: 2/4;
-    grid-row: 5;
-    justify-content: center;
+.grid-item:nth-child(5) {
+
+    grid-column: 1/3;
+
 }
+
+ol {
+
+    text-align: center;
+    list-style-type: none;
+}
+
 
 .grid-item:nth-child(6) {
-    grid-row: 5;
+    grid-row: 5/8;
+}
+
+.grid-item:nth-child(8) {
+    grid-column: 2/3;
+    text-align: center;
 }
 
 body {
@@ -109,9 +128,6 @@ nav a:hover {
     max-width: 50%;
 }
 
-.picturetwo img {
-    max-width: 100%
-}
 
 .container {
     width: 1200px;
@@ -123,6 +139,14 @@ footer p {
     padding: 25px;
     margin-top: 25px;
     text-align: right;
+
+}
+
+.social {
+    max-width: 15%;
+
+    display: flex;
+    justify-content: center;
 }
 
 a {
