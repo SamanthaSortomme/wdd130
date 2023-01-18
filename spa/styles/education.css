@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather&family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color: #FCFDFE;
+    --secondary-color: #150578;
+    --accent1-color: #5D9AE4;
+    --accent2-color: #4A0475;
+
+
+    /* These are my font families
+    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    */
+    /*header,
+footer {
+grid-column-start: 1;
+grid-column-end: 3;
+} */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
+}
+
+header {
+    padding: 3em;
+    text-align: center;
+    background-color: #4A0475;
+}
+
+.grid-item:nth-child(1) {
+    grid-column: span 3;
+}
+
+h1 {
+    color: #4A0475;
+    font-family: 'Courgette', cursive;
+    font-size: 44px;
+    text-align: center;
+}
+
+.grid-item:nth-child(2) {
+    grid-column: span 2;
+}
+
+h2 {
+    color: #4A0475;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item:nth-child(3) {
+    grid-column: 1/4;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: #4A0475;
+    padding: 1em;
+}
+
+.grid-item:nth-child(4) {
+    grid-column: 3/4;
+    grid-row: 2;
+
+}
+
+.grid-item:nth-child(7) {
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 5;
+    justify-content: center;
+}
+
+.grid-item:nth-child(6) {
+    grid-row: 5;
+}
+
+body {
+
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgb(204, 204, 204);
+}
+
+nav a {
+    text-align: center;
+    color: #150578;
+    font-size: 45px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #150578;
+    color: white;
+}
+
+.picture img {
+    max-width: 50%;
+}
+
+.picturetwo img {
+    max-width: 100%
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    color: white;
+}
+
+.home:hover {
+    background: transparent;
+}
