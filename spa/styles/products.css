@@ -107,8 +107,6 @@ footer .social img {
     width: auto;
 }
 
-
-
 button {
     background-color: #4A0475;
     color: white;
@@ -116,8 +114,6 @@ button {
     padding: 5%;
     display: flex;
     text-align: center;
-
-
 }
 
 /*================social nav links pictures====================================*/
@@ -156,14 +152,16 @@ img {
     height: auto;
 }
 
-.mid-right {
-    grid-column: 2/4;
 
-}
 
 /*================SPECIAL====================================*/
 .full-width {
     grid-column: 1/4;
+}
+
+.mid-right {
+    grid-column: 2/4;
+
 }
 
 /*
