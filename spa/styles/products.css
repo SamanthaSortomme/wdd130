@@ -25,9 +25,12 @@ grid-column-end: 3;
     gap: 20px;
 }
 
-.full-width {
-    grid-column: 1/4;
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
+
+/*================Head body foot p h1-h3====================================*/
 
 h1 {
     color: #4A0475;
@@ -36,9 +39,18 @@ h1 {
     text-align: center;
 }
 
-img {
-    width: 100%;
-    height: auto;
+h2,
+h3 {
+    color: #4A0475;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    color: #4A0475;
+    padding: 1em;
 }
 
 header {
@@ -56,23 +68,6 @@ body {
     background-color: rgb(204, 204, 204);
 }
 
-nav a {
-    text-align: center;
-    color: #150578;
-    font-size: 45px;
-    padding: 10px;
-}
-
-nav a:hover {
-    background-color: #150578;
-    color: white;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 footer p {
     font-size: 1.2em;
     padding: 25px;
@@ -83,12 +78,26 @@ footer {
     padding: 6%;
 }
 
+/*================social nav links pictures====================================*/
 .social {
     max-width: 15%;
     display: flex;
     justify-content: center;
 }
 
+nav a {
+    text-align: center;
+    color: #150578;
+    font-size: 45px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #150578;
+    color: white;
+}
 
 .home {
     color: white;
@@ -103,129 +112,24 @@ footer {
     background-color: red;
     padding: 20px;
     border: 5px dashed green;
+}
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*================SPECIAL====================================*/
+.full-width {
+    grid-column: 1/4;
 }
 
 /*
-.grid-item:nth-child(1) {
-    grid-column: 1/7
-}
+comments here to delete later, help now
 
-h1 {
-    color: #4A0475;
-    font-family: 'Courgette', cursive;
-    font-size: 70px;
-    text-align: center;
-}
+one css
+clean up html education
 
-.grid-item:nth-child(2) {
-    grid-column: 3/7
-}
-
-.picture {
-    max-width: 60%;
-}
-
-.pictures {
-    width: 100%;
-}
-
-h2 {
-    color: #4A0475;
-    font-family: 'Merriweather', serif;
-    font-size: 30px;
-    text-align: center;
-}
-
-.grid-item:nth-child(3) {
-    grid-row: 4;
-    grid-column: 6/7;
-}
-
-p {
-    font-family: 'Merriweather', serif;
-    color: #4A0475;
-    padding: 1em;
-}
-
-.grid-item:nth-child(4) {
-    grid-column: 1/6;
-    grid-row: 3/6;
-}
-
-.grid-item:nth-child(5) {
-    grid-row: 5;
-    grid-column: 6/7;
-}
-
-.grid-item:nth-child(6) {
-    grid-row: 6;
-    grid-column: 1/7;
-}
-
-.grid-item:nth-child(7) {
-    grid-row: 7;
-    grid-column: 5;
-}
-
-.grid-item:nth-child(8) {
-    grid-row: 7;
-    grid-column: 6;
-}
-
-.grid-item:nth-child(9) {
-    grid-row: 7;
-    grid-column: 2/6;
-}
-
-body {
-
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: left;
-    background-color: rgb(204, 204, 204);
-}
-
-nav a {
-    text-align: center;
-    color: #150578;
-    font-size: 45px;
-    padding: 10px;
-}
-
-nav a:hover {
-    background-color: #150578;
-    color: white;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-footer p {
-    font-size: 1.2em;
-    padding: 25px;
-    margin-top: 25px;
-    text-align: right;
-}
-
-footer {
-    padding: 6%;
-}
-
-.social {
-    max-width: 15%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.home {
-    color: white;
-}
-
-.home:hover {
-    background: transparent;
+a {
+    text-decoration: none;
 }
