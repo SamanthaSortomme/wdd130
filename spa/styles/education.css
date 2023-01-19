@@ -91,6 +91,11 @@ ol {
 
     text-align: center;
     list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    font-variant-caps: all-small-caps;
+    font-weight: 700;
+    color: #150578;
+    font-size: large;
 }
 
 
