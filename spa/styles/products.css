@@ -21,12 +21,24 @@ grid-column-end: 3;
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
+.full-width {
+    grid-column: 1/4;
+}
+
+h1 {
+    color: #4A0475;
+    font-family: 'Courgette', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
 img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 header {
@@ -35,6 +47,67 @@ header {
     background-color: #4A0475;
 }
 
+body {
+
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgb(204, 204, 204);
+}
+
+nav a {
+    text-align: center;
+    color: #150578;
+    font-size: 45px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #150578;
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1.2em;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+footer {
+    padding: 6%;
+}
+
+.social {
+    max-width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.home {
+    color: white;
+}
+
+.home:hover {
+    background: transparent;
+}
+
+.education {
+    text-decoration: none;
+    background-color: red;
+    padding: 20px;
+    border: 5px dashed green;
+
+}
+
+/*
 .grid-item:nth-child(1) {
     grid-column: 1/7
 }
