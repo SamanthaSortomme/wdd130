@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather&family=Playfair+Display&display=swap');
 
-:root {
+
+/*
+
     --primary-color: #FCFDFE;
     --secondary-color: #150578;
     --accent1-color: #5D9AE4;
     --accent2-color: #4A0475;
 
 
-    /* These are my font families
+    These are my font families
     font-family: 'Courgette', cursive;
     font-family: 'Merriweather', serif;
     font-family: 'Playfair Display', serif;
     */
-    /*header,
+/*header,
 footer {
 grid-column-start: 1;
 grid-column-end: 3;
 } */
-}
+
 
 .grid-container {
     display: grid;
